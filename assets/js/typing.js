@@ -2,7 +2,7 @@ const carouselText = [
     { text: "Hi, my name's Nafiz!" },
     { text: "I like to program." },
     { text: "My favourite colour is red.", color: "red" },
-    { text: "I'm studying at the University of Windsor." },
+    { text: "I'm studying at Uwindsor." },
 ];
 
 $(document).ready(async function () {
