@@ -1333,6 +1333,11 @@ br.clear {
 }
 
 @media screen and (max-width: 960px) {
+    .skills-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .row {
         display: flex;
         flex-wrap: wrap;
@@ -2088,7 +2093,7 @@ ul.icons a {
 #footer {
     margin-left: 375px;
     text-align: center;
-    background-color: #dce3e2;
+    background-color: #d6dddc;
     padding: 3em 0 4em 0;
     box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
     font-size: 0.8em;
@@ -2176,6 +2181,10 @@ ul.icons a {
 
 #main > section.four {
     background-color: #e8edec;
+}
+
+#main > section.five {
+    background-color: rgb(230, 230, 230);
 }
 
 /* Wide */
@@ -2636,6 +2645,7 @@ ul.icons a {
 
 .media {
     margin-top: 5em;
+    margin-bottom: 7em;
 }
 
 #contact-icons > li {
@@ -2644,4 +2654,35 @@ ul.icons a {
     font-size: 3em;
     padding-left: 0.2em;
     padding-right: 0.2em;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    text-align: left;
+    margin-bottom: 5em;
+}
+
+.skills-list li {
+    list-style-type: none;
+    padding-top: 1.2em;
+    padding-right: 5em;
+    padding-bottom: 0.5em;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.skills-list li::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #e27689;
+    height: 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+.skills-list li:hover {
+    top: -10px;
 }
