@@ -1994,10 +1994,10 @@ ul.icons a {
 }
 
 #header #particles-js {
-    -moz-flex-grow: 3;
-    -webkit-flex-grow: 3;
-    -ms-flex-grow: 3;
-    flex-grow: 3;
+    -moz-flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-shrink: 0;
+    flex-shrink: 0;
     margin-right: 30px;
     margin-left: 30px;
 }
