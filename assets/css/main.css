@@ -1984,7 +1984,7 @@ ul.icons a {
     color: #fff;
     height: 100%;
     left: 0;
-    overflow-y: auto;
+    overflow-y: hidden;
     position: fixed;
     text-align: right;
     top: 0;
