@@ -1977,7 +1977,7 @@ ul.icons a {
     background: #222629 url("images/overlay.png");
     box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
     color: #fff;
-    height: 100%;
+    height: 100vh;
     left: 0;
     overflow-y: hidden;
     position: fixed;
@@ -1994,10 +1994,10 @@ ul.icons a {
 }
 
 #header #particles-js {
-    -moz-flex-shrink: 0;
-    -webkit-flex-shrink: 0;
-    -ms-flex-shrink: 0;
-    flex-shrink: 0;
+    -moz-flex-grow: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-grow: 0;
+    flex-grow: 0;
     margin-right: 30px;
     margin-left: 30px;
 }
