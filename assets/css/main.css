@@ -2616,14 +2616,8 @@ ul.icons a {
 
 .image-featured {
     height: auto;
-    width: 15em;
+    width: 100%;
     transition: 0.4s;
-}
-
-.image-featured:hover {
-    height: auto;
-    width: 15em;
-    transform: scale(1.2);
 }
 
 .resume-link {
