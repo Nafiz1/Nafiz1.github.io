@@ -800,13 +800,15 @@ ul.icons a {
     display: block;
     border: none;
     border-radius: 5px;
-    background-color: #dfb5bd;
+    background-color: transparent;
+    color: #dfb5bd;
+    border: 2px solid #41484c;
     width: 70%;
     transition: 0.2s;
 }
 
 #header .btn-toggle:hover {
-    background-color: #888;
+    border: 2px solid #fff;
 }
 
 #header .icons a {
@@ -952,17 +954,17 @@ ul.icons a {
     text-decoration: none;
     color: #e27689;
     border-bottom: dotted 1px #e27689;
-    -moz-transition: color 0.1s ease-in-out, border-bottom-color 0.1s ease-in-out;
-    -webkit-transition: color 0.1s ease-in-out, border-bottom-color 0.1s ease-in-out;
-    -ms-transition: color 0.1s ease-in-out, border-bottom-color 0.1s ease-in-out;
-    transition: color 0.1s ease-in-out, border-bottom-color 0.1s ease-in-out;
+    -moz-transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -ms-transition: 0.2s;
+    transition: 0.2s;
     outline: 0;
     font-weight: 1000;
 }
 
 .resume-link:hover {
-    color: rgba(32, 35, 168, 0.5);
-    border-bottom: dotted 1px rgba(32, 35, 168, 0.5);
+    color: #adadad;
+    border-bottom: dotted 1px #adadad;
 }
 
 /* Wide */
