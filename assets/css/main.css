@@ -114,6 +114,7 @@ body {
     --bkg-color4: #e8edec;
     --bkg-color5: #e3e9e8;
     --footer-color: #dce3e2;
+    --line-color: #fff;
 }
 body.dark-theme {
     --bkg-color2: #292929;
@@ -121,6 +122,7 @@ body.dark-theme {
     --bkg-color4: #121313;
     --bkg-color5: #0c0e0d;
     --footer-color: #000000;
+    --line-color: #7a5151;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -131,6 +133,7 @@ body.dark-theme {
         --bkg-color4: #141616;
         --bkg-color5: #0c0e0d;
         --footer-color: #171818;
+        --line-color: #fff;
     }
     body.light-theme {
         --bkg-color2: #f5fafa;
@@ -138,6 +141,7 @@ body.dark-theme {
         --bkg-color4: #e8edec;
         --bkg-color5: #e3e9e8;
         --footer-color: #dce3e2;
+        --line-color: #7a5151;
     }
 }
 
@@ -1251,6 +1255,7 @@ ul.icons a {
         -ms-transition: -ms-transform 0.5s ease;
         transition: transform 0.5s ease;
         padding-bottom: 1px;
+        background-color: var(--line-color);
         margin-left: 0;
     }
 
