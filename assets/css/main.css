@@ -804,6 +804,7 @@ ul.icons a {
     color: #222629;
     width: 70%;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 #header .btn-toggle:hover {
