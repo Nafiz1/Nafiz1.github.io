@@ -800,15 +800,14 @@ ul.icons a {
     display: block;
     border: none;
     border-radius: 5px;
-    background-color: transparent;
-    color: #dfb5bd;
-    border: 2px solid #41484c;
+    background-color: #53595c;
+    color: #222629;
     width: 70%;
     transition: 0.2s;
 }
 
 #header .btn-toggle:hover {
-    border: 2px solid #fff;
+    background-color: #fff;
 }
 
 #header .icons a {
