@@ -223,6 +223,13 @@
             config.target.removeClass(config.visibleClass);
         });
 
+        //Button.
+
+        const btn = document.querySelector(".btn-toggle");
+        btn.addEventListener("click", function (event) {
+            $this._hide(event);
+        });
+
         // Body.
 
         // Event: Hide panel on body click/tap.
